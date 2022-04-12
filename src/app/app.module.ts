@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { MainLayoutComponent } from './shared/main-layout/main-layout.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { ProductPageComponent } from './product-page/product-page.component';
-import { CardPageComponent } from './card-page/card-page.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { CardPageComponent } from './card-page/card-page.component';
     MainLayoutComponent,
     MainPageComponent,
     ProductPageComponent,
-    CardPageComponent
+    CartPageComponent
   ],
   imports: [
     BrowserModule,
